@@ -1,26 +1,25 @@
-document.getElementById('adicionarProduto').addEventListener('click', () => {
-    const imagemInput = document.getElementById('importarImagem');
-    const precoInput = document.getElementById('importarPreco');
-    const listaProdutos = document.getElementById('listaProdutos');
+// Aguarda o carregamento completo do DOM antes de executar o código
+document.addEventListener('DOMContentLoaded', () => {
+    // Função para filtrar produtos
+    function filtrarProdutos() {
+        const searchInput = document.getElementById('searchInput').value.toLowerCase();
+        const produtos = document.querySelectorAll('.produto');
 
-    if (imagemInput.files.length > 0 && precoInput.value.trim() !== '') {
-        const produtoDiv = document.createElement('div');
-        produtoDiv.classList.add('produto');
+        produtos.forEach(produto => {
+            const nomeProduto = produto.querySelector('p.nome-produto').textContent.toLowerCase();
+            if (nomeProduto.includes(searchInput)) {
+                produto.style.display = 'block';
+            } else {
+                produto.style.display = 'none';
+            }
+        });
+    }
 
-        const imagem = document.createElement('img');
-        imagem.src = URL.createObjectURL(imagemInput.files[0]);
-        produtoDiv.appendChild(imagem);
-
-        const preco = document.createElement('p');
-        preco.textContent = `Preço: R$ ${precoInput.value}`;
-        produtoDiv.appendChild(preco);
-
-        listaProdutos.appendChild(produtoDiv);
-
-        // Resetar os campos
-        imagemInput.value = '';
-        precoInput.value = '';
+    // Adiciona o evento de input ao campo de pesquisa
+    const searchInputElement = document.getElementById('searchInput');
+    if (searchInputElement) {
+        searchInputElement.addEventListener('input', filtrarProdutos);
     } else {
-        alert('Por favor, selecione uma imagem e insira um preço.');
+        console.error('O campo de pesquisa com o ID "searchInput" não foi encontrado.');
     }
 });
