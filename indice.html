@@ -8,7 +8,7 @@
 </head>
 <body>
     <header class="header">
-        <h1>Loja Elegante</h1>
+        <h1> <img src="julio_novo.png.png" alt=""></h1>
         <nav class="navbar">
             <a href="#produtos">Produtos</a>
             <a href="#sobre">Sobre Nós</a>
@@ -16,35 +16,107 @@
         </nav>
     </header>
 
+    <!-- Campo de Pesquisa -->
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Pesquisar produtos...">
+    </div>
+
     <main>
+
+    <main>
+        <!-- Seção de Produtos -->
         <section id="produtos" class="produtos">
-            <h2>Nossos Produtos</h2>
-            <div class="product-upload">
-                <input type="file" id="importarImagem" accept="image/*">
-                <input type="text" id="importarPreco" placeholder="Digite o preço">
-                <button id="adicionarProduto">Adicionar Produto</button>
+            <h2>Confira nosso catálogo:</h2>
+
+            <div class="lista-produtos">
+                <!-- Produto 1 -->
+                <div class="produto">
+                    <img src="relogio_marrom.png" alt="Relogio">
+                    <p class="nome-produto">Relógio Masculino Dourado Tissely pulseira couro</p>
+                    <p>Preço: R$ 250,00</p>
+                </div>
+
+                <!-- Produto 2 -->
+                <div class="produto">
+                    <img src="fone_bluetooth.png" alt="Fone de Ouvido Bluetooth Redmi">
+                    <p class="nome-produto">Fone de Ouvido Bluetooth Redmi</p>
+                    <p>Preço: R$ 150,00</p>
+                </div>
+
+                <!-- Produto 3 -->
+                <div class="produto">
+                    <img src="caixinha_portatil.png" alt="Caixa de Som Portátil">
+                    <p class="nome-produto">Caixa de Som Portátil Bluetooth</p>
+                    <p>Preço: R$ 200,00</p>
+                </div>
+
+                <div class="produto">
+                    <img src="relogio_preto.png" alt="Relogio de pulso preto">
+                    <p class="nome-produto">Relogio Masculino de pulso Original Classic Moderno </p>
+                    <p>Preço: R$ 200,00</p>
+                </div>
+
+                <div class="produto">
+                    <img src="relogio_digital.png" alt="Relogio de pulso digital militar">
+                    <p class="nome-produto">Relogio Masculino de pulso Digital Quartz </p>
+                    <p>Preço: R$ 200,00</p>
+                </div>
+
+                <div class="produto">
+                    <img src="relogio_dourado.png" alt="Relogio Dourado de pulso">
+                    <p class="nome-produto">Relogio de pulso masculino com pulseira de aço dourada </p>
+                    <p>Preço: R$ 200,00</p>
+                </div>
+
+                <div class="produto">
+                    <img src="relogio_siliconeverde.png" alt="Relogio Masculino Verde Escuro">
+                    <p class="nome-produto">Relogio Masculino pulseira de silicone Quartzo verde </p>
+                    <p>Preço: R$ 200,00</p>
+                </div>
+
+                <div class="produto">
+                    <img src="aparelho_tv.png" alt="Aparelho de tv box smartv">
+                    <p class="nome-produto">Aparelho Tv Box Smart MX box  </p>
+                    <p>Preço: R$ 350,00</p>
+                </div>
+
+                <div class="produto">
+                    <img src="copo_termico.png" alt="Copo termico cerveja">
+                    <p class="nome-produto">Copo termico de Cerveja Stanley cores</p>
+                    <p>Preço: R$ 35,00</p>
+                </div>
+
+                <div class="produto">
+                    <img src="fone_infantil.png" alt="Fone de Ouvido bluetooth infantil">
+                    <p class="nome-produto">Fone de ouvido bluetooth JBL Infantil </p>
+                    <p>Preço: R$ 200,00</p>
+                </div>
+
             </div>
-            <div id="listaProdutos" class="lista-produtos"></div>
         </section>
 
+        <!-- Sobre Nós -->
         <section id="sobre" class="sobre">
             <h2>Sobre Nós</h2>
-            <p>Somos uma loja comprometida em oferecer os melhores produtos.</p>
+            <p>Bem-vindo à Julio Imports , sua nova loja de confiança para acessórios de qualidade! Aqui você encontra uma seleção incrível de relógios elegantes, fones de última geração e outros produtos modernos, cuidadosamente selecionados para atender às suas necessidades e elevar o seu estilo.  Na Julio Imports, pensamos que cada acessório é uma extensão de sua personalidade. Por isso, ganhamos com produtos que combinam tecnologia, design e funcionalidade. Seja para presentear alguém especial ou para investir em você mesmo, temos a opção perfeita.
+
+                Explore nossa loja e descubra o diferencial da Julio Imports: qualidade, estilo e preços justos reunidos em um só lugar. Nós estamos prontos para surpreender você!</p>
         </section>
 
+        <!-- Contato -->
         <section id="contato" class="contato">
             <h2>Contato</h2>
-            <form>
-                <input type="text" placeholder="Seu Nome" required>
-                <input type="email" placeholder="Seu E-mail" required>
-                <textarea placeholder="Sua Mensagem" required></textarea>
-                <button type="submit">Enviar</button>
             </form>
+            <!-- Botão de WhatsApp -->
+    <div class="whatsapp-container">
+        <a href="https://wa.me/5517981778471" target="_blank" class="whatsapp-button">
+            <img src="whatsapp-icon.png.png" alt="WhatsApp"> Fale Conosco no WhatsApp
         </section>
     </main>
 
+    
     <footer class="footer">
-        <p>&copy; 2024 Loja Elegante. Todos os direitos reservados.</p>
+        <p> 2024 Desenvolvido por Guga Tocalino. Todos os direitos reservados.</p>
     </footer>
 
     <script src="script.js"></script>
