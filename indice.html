@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Elegante</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Loja Elegante</h1>
+        <nav class="navbar">
+            <a href="#produtos">Produtos</a>
+            <a href="#sobre">Sobre Nós</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="produtos" class="produtos">
+            <h2>Nossos Produtos</h2>
+            <div class="product-upload">
+                <input type="file" id="importarImagem" accept="image/*">
+                <input type="text" id="importarPreco" placeholder="Digite o preço">
+                <button id="adicionarProduto">Adicionar Produto</button>
+            </div>
+            <div id="listaProdutos" class="lista-produtos"></div>
+        </section>
+
+        <section id="sobre" class="sobre">
+            <h2>Sobre Nós</h2>
+            <p>Somos uma loja comprometida em oferecer os melhores produtos.</p>
+        </section>
+
+        <section id="contato" class="contato">
+            <h2>Contato</h2>
+            <form>
+                <input type="text" placeholder="Seu Nome" required>
+                <input type="email" placeholder="Seu E-mail" required>
+                <textarea placeholder="Sua Mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Loja Elegante. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
