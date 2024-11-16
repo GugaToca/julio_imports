@@ -246,3 +246,24 @@ form button:hover {
         width: 200px;
     }
 }
+/* Estilo do Campo de Pesquisa */
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.search-container input {
+    width: 50%;
+    max-width: 400px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    outline: none;
+    transition: box-shadow 0.3s ease;
+}
+
+.search-container input:focus {
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+}
