@@ -15,7 +15,7 @@ body {
 }
 
 .header {
-    background: linear-gradient(135deg, #007bff, #6610f2);
+    background: linear-gradient(135deg, #433e4d, #06032b);
     color: #fff;
     padding: 10px 20px; /* Reduz o espaçamento interno */
     text-align: center;
@@ -52,7 +52,7 @@ body {
 }
 
 .navbar a:hover {
-    color: #ffc107;
+    color: #999896;
 }
 
 /* Seções */
@@ -71,7 +71,8 @@ section {
 section h2 {
     font-size: 2rem;
     margin-bottom: 20px;
-    color: #007bff;
+    color: #06032b;
+
     text-transform: uppercase;
     letter-spacing: 1px;
 }
@@ -99,14 +100,14 @@ section p {
 }
 
 .product-upload button {
-    background-color: #007bff;
+    background-color: #06032b;
     color: #fff;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 .product-upload button:hover {
-    background-color: #0056b3;
+    background-color: #06032b;
 }
 
 /* Lista de Produtos */
@@ -176,7 +177,7 @@ form button:hover {
 
 /* Rodapé */
 .footer {
-    background: linear-gradient(135deg, #007bff, #6610f2);
+    background: linear-gradient(135deg, #433e4d, #06032b);
     color: #fff;
     text-align: center;
     padding: 15px;
@@ -266,4 +267,57 @@ form button:hover {
 
 .search-container input:focus {
     box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+}
+/* Estilo para o link da Shopee */
+.shopee-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.shopee-link {
+    display: inline-block;
+    background-color: #ff5722;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.shopee-link:hover {
+    background-color: #e64a19;
+    transform: scale(1.05);
+}
+/* Estilo do Botão de WhatsApp */
+.whatsapp-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.whatsapp-button {
+    display: inline-block;
+    background-color: #25d366; /* Cor oficial do WhatsApp */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.whatsapp-button img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.whatsapp-button:hover {
+    background-color: #1ebe57; /* Efeito ao passar o mouse */
+    transform: scale(1.05); /* Leve aumento ao passar o mouse */
 }
