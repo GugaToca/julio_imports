@@ -1,0 +1,92 @@
+[
+    {
+        "name": "Relógio Masculino Dourado Tissely pulseira couro",
+        "price": 250.00,
+        "image": "relogio_marrom.png",
+        "promotion": "20% OFF"
+    },
+    {
+        "name": "Fone de Ouvido Bluetooth Redmi",
+        "price": 150.00,
+        "image": "fone_bluetooth.png",
+        "promotion": "20% OFF"
+    },
+    {
+        "name": "Caixa de Som Portátil Bluetooth",
+        "price": 200.00,
+        "image": "caixinha_portatil.png",
+        "promotion": null
+    },
+    {
+        "name": "Relogio Masculino de pulso Original Classic Moderno",
+        "price": 200.00,
+        "image": "relogio_preto.png",
+        "promotion": null
+    },
+    {
+        "name": "Relogio Masculino de pulso Digital Quartz",
+        "price": 200.00,
+        "image": "relogio_digital.png",
+        "promotion": null
+    },
+    {
+        "name": "Relogio de pulso masculino com pulseira de aço dourada",
+        "price": 200.00,
+        "image": "relogio_dourado.png",
+        "promotion": "20% OFF"
+    },
+    {
+        "name": "Relogio Masculino pulseira de silicone Quartzo verde",
+        "price": 200.00,
+        "image": "relogio_siliconeverde.png",
+        "promotion": null
+    },
+    {
+        "name": "Aparelho Tv Box Smart MX box",
+        "price": 350.00,
+        "image": "aparelho_tv.png",
+        "promotion": null
+    },
+    {
+        "name": "Copo termico de Cerveja Stanley cores",
+        "price": 35.00,
+        "image": "copo_termico.png",
+        "promotion": null
+    },
+    {
+        "name": "Fone de ouvido bluetooth JBL Infantil",
+        "price": 200.00,
+        "image": "fone_infantil.png",
+        "promotion": null
+    },
+    {
+        "name": "Anão Jornalista profissional",
+        "price": 1500.00,
+        "image": "anao_jornalista.png",
+        "promotion": "20% OFF"
+    },
+    {
+        "name": "Anão Ator profissional",
+        "price": 1500.00,
+        "image": "anao_ator.png",
+        "promotion": "20% OFF"
+    },
+    {
+        "name": "Anão Comediante profissional",
+        "price": 1500.00,
+        "image": "anao_comediante.png",
+        "promotion": "20% OFF"
+    },
+    {
+        "name": "Relógio Masculino Militare Preto Camuflado",
+        "price": 155.00,
+        "image": "relogio_militare.png",
+        "promotion": null
+    },
+    {
+        "name": "Relógio vintage Linha Gold B640 Dourado - unissex",
+        "price": 155.00,
+        "image": "relogio_vintage.png",
+        "promotion": null
+    }
+]
