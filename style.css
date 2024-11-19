@@ -321,3 +321,24 @@ form button:hover {
     background-color: #1ebe57; /* Efeito ao passar o mouse */
     transform: scale(1.05); /* Leve aumento ao passar o mouse */
 }
+.promo-banner {
+    background: linear-gradient(135deg, #f0e655, #f5f10a); /* Cor de destaque para o banner */
+    color: #fffcfc; /* Cor do texto */
+    font-weight: bold; /* Deixar o texto em negrito */
+    text-align: center; /* Centralizar o texto */
+    padding: 5px; /* Espaçamento interno */
+    border-radius: 5px; /* Cantos arredondados */
+    margin-top: 10px; /* Espaçamento acima do banner */
+    box-shadow: 0 4px 6px rgba(248, 246, 246, 0.1); /* Sombra para destacar */
+    animation: pulse 1.5s infinite; /* Animação de pulsar */
+}
+
+/* Animação de pulsar */
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+}
