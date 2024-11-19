@@ -342,3 +342,74 @@ form button:hover {
         transform: scale(1.05);
     }
 }
+/* Para telas pequenas (celulares, menos de 600px) */
+@media (max-width: 600px) {
+    /* Ajuste do cabeçalho */
+    .header {
+        flex-direction: column;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .header h1 {
+        font-size: 1.4rem;
+        margin-bottom: 10px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* Campo de pesquisa */
+    .search-container input {
+        width: 90%; /* Ocupa quase toda a largura */
+    }
+
+    /* Ajuste das seções */
+    section {
+        padding: 20px 10px;
+        margin: 20px 0;
+    }
+
+    /* Ajuste dos produtos */
+    .lista-produtos {
+        flex-direction: column; /* Organiza os produtos em uma coluna */
+        align-items: center;
+    }
+
+    .produto {
+        width: 90%; /* Produto ocupa quase toda a largura da tela */
+    }
+
+    .produto img {
+        width: 100%; /* Garante que a imagem se ajuste ao contêiner */
+        height: auto;
+    }
+
+    /* Ajuste do rodapé */
+    .footer {
+        font-size: 0.8rem;
+        padding: 10px;
+    }
+
+    .footer p {
+        line-height: 1.4; /* Espaçamento entre as linhas */
+    }
+
+    /* Ajuste dos botões de contato */
+    .whatsapp-container, .shopee-container {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .whatsapp-button, .shopee-link {
+        font-size: 1rem;
+        padding: 10px 15px;
+        border-radius: 20px;
+        width: 80%; /* Botões mais largos */
+        display: block;
+        margin: 0 auto;
+    }
+}
+
