@@ -412,4 +412,53 @@ form button:hover {
         margin: 0 auto;
     }
 }
+/* Para telas pequenas (celulares, menos de 600px) */
+@media (max-width: 600px) {
+    /* Ajuste do cabeçalho */
+    .header {
+        display: flex;
+        flex-direction: column; /* Empilha os elementos verticalmente */
+        align-items: center;
+        text-align: center;
+        padding: 10px 0;
+    }
 
+    .header h1 {
+        font-size: 1.2rem; /* Reduz o tamanho do texto */
+        margin: 10px 0; /* Espaçamento entre o logo e o título */
+    }
+
+    .navbar {
+        flex-direction: column; /* Links em coluna */
+        gap: 10px; /* Espaçamento entre os links */
+        margin-top: 10px;
+    }
+
+    .navbar a {
+        font-size: 1rem; /* Texto menor para caber melhor */
+    }
+
+    /* Campo de pesquisa */
+    .search-container {
+        margin: 15px 0;
+    }
+
+    .search-container input {
+        width: 90%; /* Quase toda a largura da tela */
+        padding: 8px; /* Ajusta o espaçamento interno */
+    }
+
+    /* Ajuste do rodapé */
+    .footer {
+        display: flex;
+        flex-direction: column; /* Itens empilhados */
+        align-items: center; /* Centraliza o conteúdo */
+        padding: 15px 10px;
+        text-align: center;
+        font-size: 0.8rem; /* Reduz o tamanho da fonte */
+    }
+
+    .footer p {
+        margin: 5px 0; /* Espaçamento entre as linhas */
+    }
+}
